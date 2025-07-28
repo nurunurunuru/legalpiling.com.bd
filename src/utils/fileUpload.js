@@ -33,14 +33,14 @@ export const uploadFile = async (file, bucketName = 'public', path = '') => {
     }
 
     // Get the public URL of the uploaded file
-    const { data: { publicUrl } } = supabase.storage
+    const { data: urlData } = supabase.storage
       .from(bucketName)
       .getPublicUrl(filePath);
 
     return { 
       data: { 
         ...data, 
-        publicUrl,
+        publicUrl: urlData.publicUrl,
         fileName: file.name,
         fileType: file.type,
         fileSize: file.size
