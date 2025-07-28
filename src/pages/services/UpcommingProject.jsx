@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Trash2 } from 'lucide-react'; // If using lucide icons (optional)
 
 const UpcomingProject = () => {
   const [images, setImages] = useState([]);
@@ -8,15 +7,6 @@ const UpcomingProject = () => {
     const savedImages = JSON.parse(localStorage.getItem('uploadedImages')) || [];
     setImages(savedImages);
   }, []);
-
-  const handleDelete = (indexToDelete) => {
-    const confirmed = window.confirm("Are you sure you want to delete this image?");
-    if (!confirmed) return;
-
-    const updatedImages = images.filter((_, index) => index !== indexToDelete);
-    setImages(updatedImages);
-    localStorage.setItem('uploadedImages', JSON.stringify(updatedImages));
-  };
 
   return (
     <section className="bg-gradient-to-b from-gray-50 to-white py-14">
@@ -37,17 +27,6 @@ const UpcomingProject = () => {
                 key={index}
                 className="relative group rounded-xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-lg transition duration-300 bg-white"
               >
-                {/* Delete Button */}
-                <button
-                  onClick={() => handleDelete(index)}
-                  className="absolute top-3 right-3 bg-white/80 backdrop-blur-md text-red-600 hover:text-white hover:bg-red-600 rounded-full p-1.5 transition duration-200 z-10"
-                  title="Delete Image"
-                >
-                  {/* Use Lucide or emoji fallback */}
-                  <Trash2 className="w-4 h-4" />
-                  {/* Or use this instead of icon: &times; */}
-                </button>
-
                 <img
                   src={img}
                   alt={`Uploaded ${index}`}

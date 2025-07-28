@@ -59,7 +59,7 @@ const ContactPage = () => {
             <h2 className='text-2xl font-bold text-yellow-600 border-b pb-2'>Key Contacts</h2>
 
             <div>
-              <h3 className='font-semibold text-lg'>Chief Executive Officer:</h3>
+              <h3 className='font-semibold text-lg'>Chief Executive Officer</h3>
               <p>Mohammad Jewel Hossain<br />
                 <strong>Phone:</strong> +880-2-9134367<br />
                 <strong>Mobile:</strong> 01713019700, 01865103710<br />
@@ -68,16 +68,16 @@ const ContactPage = () => {
             </div>
 
             <div>
-              <h3 className='font-semibold text-lg'>General Manager:</h3>
-              <p>Mr. Anil Chandra Saha<br />
-                <strong>Phone:</strong> +880-2-9134367<br />
-                <strong>Mobile:</strong> 01865-103715<br />
-                <strong>Email:</strong> anil@legalpiling.com.bd
+              <h3 className='font-semibold text-lg'>Director</h3>
+              <p>Md. Saiful Islam<br />
+                <strong>Phone:</strong> +88-02-41025462<br />
+                <strong>Mobile:</strong> 01711587196, 01865103700<br />
+                <strong>Email:</strong> jewel@legalpiling.com.bd
               </p>
             </div>
 
             <div>
-              <h3 className='font-semibold text-lg'>Admin & Co-Ordinator:</h3>
+              <h3 className='font-semibold text-lg'>Admin & Co-Ordinator</h3>
               <p>Mr. Md. Rafikul Islam<br />
                 <strong>Phone:</strong> +880-2-41025462<br />
                 <strong>Mobile:</strong> +8801718587841<br />
@@ -86,22 +86,38 @@ const ContactPage = () => {
             </div>
 
             <div>
-              <h3 className='font-semibold text-lg'>Advisor, Business Development:</h3>
+              <h3 className='font-semibold text-lg'>Executive Engineer (Technical & Buiseness Development)</h3>
               <p>Md. Sorug Rashid Chowdhury (Saikat)<br />
                 <em>B.Sc in Civil & Environmental Engineering</em><br />
+
                 <em>Advanced Project Management (BUET)</em><br />
-                <strong>Phone:</strong> +880-2-41025462<br />
-                <strong>Mobile:</strong> +8801742103652<br />
+                <em>PDA, Ultrasonic Pile Borehole Measurement Test &</em><br />
+                <em>Bi-directional Pile Static Load Test Trained by SINOROCK & OUGAN (CHINA)</em><br />
+                <em>CSL & PIT Test Trained by PDI (MALAYSIA)</em><br />
+                <em>Hydraulic Jack, Load Cell, Data Logger, Piezometer, Strain Gauge, Tilt Meter</em><br />
+                <em>Inclinometer and Borehole Extensometer Trained by ENCARDIORITE & ORIENTAL (INDIA)</em><br />
+                <em>Corrosion Meter, Resistivity Meter Trained by PROSEQ</em><br />
+                <strong>Phone:</strong> +880-2-58154471<br />
+                <strong>Mobile:</strong> +88 01742-103652<br />
                 <strong>Email:</strong> lpc_jewel@yahoo.com, saikatrashid@gmail.com
               </p>
             </div>
 
             <div>
-              <h3 className='font-semibold text-lg'>Manager (Office):</h3>
+              <h3 className='font-semibold text-lg'>Manager (Office)</h3>
               <p>Md. Zulfiker Ali Khan<br />
                 <strong>Phone:</strong> +880-2-9134367<br />
                 <strong>Mobile:</strong> 01865-103732<br />
                 <strong>Email:</strong> lpc_jewel@yahoo.com, zulfiker.2013@yahoo.com
+              </p>
+            </div>
+
+            <div>
+              <h3 className='font-semibold text-lg'>Head of Finance & IT</h3>
+              <p>Mohammad Ashraful Alam<br />
+                <strong>Phone:</strong> +880-2-9134367<br />
+                <strong>Mobile:</strong> 01711110160<br />
+                <strong>Email:</strong> lpc_jewel@yahoo.com, ashrafulalam1980sb@gmail.com
               </p>
             </div>
           </motion.div>

@@ -3,12 +3,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
-import project1 from '../assets/Top-surface-at-Khulna-Coal-Based-Power-Plant-Connecting-Road-Project-Rampal-Bagerhat-400x516.jpg';
+import project1 from '../assets/newone.jpeg';
 import project2 from '../assets/Top-View-at-Khulna-Coal-Based-Power-Plant-Connecting-Road-Project-400x516.jpg';
 import project3 from '../assets/Top-View-at-Khulna-Coal-Based-Power-Plant-Connecting-Road-Project-Rampal-Bagerhat-400x516.jpg';
 import project4 from '../assets/Legal-Piling-Construction.-Aftabnagar-Building-400x516.jpg';
 // import project5 from '../assets/WhatsApp Image 2025-04-29 at 11.16.32 AM (1).jpeg';
-import project6 from '../assets/WhatsApp Image 2025-04-29 at 11.16.32 AM.jpeg';
+// import project6 from '../assets/WhatsApp Image 2025-04-29 at 11.16.32 AM.jpeg';
 // import project7 from '../assets/WhatsApp Image 2025-04-29 at 11.16.33 AM (1).jpeg';
 // import project8 from '../assets/WhatsApp Image 2025-04-29 at 11.16.33 AM.jpeg';
 // import project9 from '../assets/WhatsApp Image 2025-04-29 at 11.16.34 AM (1).jpeg';
@@ -21,7 +21,7 @@ import { slideUpVariants, zoomInVariants } from './animation';
 
 const images = [
   project1, project2, project3, project4,
-   project6,  project11, project12
+     project11, project12
 ];
 
 const Portfolio = () => {

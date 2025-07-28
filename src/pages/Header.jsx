@@ -53,7 +53,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img src={Logo} alt="LegalPiling Logo" className="h-10 w-auto object-contain" />
-            <span className="text-2xl font-bold text-gray-800 tracking-tight">LegalPiling</span>
+            <span className="text-2xl font-bold text-gray-800 tracking-tight">LPC</span>
           </Link>
 
           {/* Hamburger Menu */}
