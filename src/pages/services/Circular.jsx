@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Trash2 } from 'lucide-react'; // install lucide-react or use any icon library
 
 const Circular = () => {
   const [circulars, setCirculars] = useState([]);
@@ -8,15 +7,6 @@ const Circular = () => {
     const storedCirculars = JSON.parse(localStorage.getItem('jobCirculars')) || [];
     setCirculars(storedCirculars);
   }, []);
-
-  const handleDelete = (indexToDelete) => {
-    const confirmDelete = window.confirm('Are you sure you want to delete this job circular?');
-    if (!confirmDelete) return;
-
-    const updatedCirculars = circulars.filter((_, index) => index !== indexToDelete);
-    setCirculars(updatedCirculars);
-    localStorage.setItem('jobCirculars', JSON.stringify(updatedCirculars));
-  };
 
   return (
     <div className="max-w-5xl mx-auto mt-12 px-4 md:px-0">
@@ -51,14 +41,6 @@ const Circular = () => {
                   </span>
                 </div>
               </div>
-
-              <button
-                onClick={() => handleDelete(index)}
-                className="absolute top-4 right-4 text-red-500 hover:text-red-700 transition"
-                title="Delete"
-              >
-                <Trash2 size={20} />
-              </button>
             </div>
           ))}
         </div>

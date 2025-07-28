@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { slideUpVariants, zoomInVariants } from './animation';
-import Legal from '../assets/Jewel-Hossain.png';
-import Director from '../assets/Saiful.jpg'; // Make sure you have this image
+import Legal from '../assets/CamScanner 27-07-2025 18.01.jpg';
+import Director from '../assets/saif.jpg'; // Make sure you have this image
 
 const AboutPage = () => {
   return (
